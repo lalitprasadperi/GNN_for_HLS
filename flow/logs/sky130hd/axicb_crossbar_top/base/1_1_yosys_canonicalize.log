@@ -1,0 +1,89 @@
+1. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/axicb_crossbar.sv
+2. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/axicb_crossbar_top.sv
+3. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/axicb_mst_if.sv
+4. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/axicb_mst_switch.sv
+5. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/axicb_pipeline.sv
+6. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/axicb_round_robin.sv
+7. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/axicb_round_robin_core.sv
+8. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/axicb_scfifo.sv
+9. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/axicb_scfifo_ram.sv
+10. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/axicb_slv_if.sv
+11. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/axicb_slv_switch.sv
+12. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/axicb_switch_top.sv
+13. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/ecc_encode.sv
+14. Executing Verilog-2005 frontend: ./designs/src/lalit_rtl/ecc_secded.sv
+15. Executing Liberty frontend: ./objects/sky130hd/axicb_crossbar_top/base/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+16. Executing Verilog-2005 frontend: /home/bsrice33/OpenROAD/OpenROAD-flow-scripts/flow/platforms/sky130hd/cells_clkgate_hd.v
+Using ABC speed script.
+Extracting clock period from SDC file: ./results/sky130hd/axicb_crossbar_top/base/clock_period.txt
+Setting clock period to 10.0
+17. Executing HIERARCHY pass (managing design hierarchy).
+18. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_crossbar_top'.
+18.1. Analyzing design hierarchy..
+18.2. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_crossbar'.
+18.3. Analyzing design hierarchy..
+18.4. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_mst_if'.
+18.5. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_mst_if'.
+18.6. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_mst_if'.
+18.7. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_mst_if'.
+18.8. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_switch_top'.
+18.9. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_slv_if'.
+18.10. Analyzing design hierarchy..
+18.11. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo'.
+18.12. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo'.
+18.13. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo'.
+18.14. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo'.
+18.15. Executing AST frontend in derive mode using pre-parsed AST for module `\ecc_secded'.
+18.16. Executing AST frontend in derive mode using pre-parsed AST for module `\ecc_encode'.
+18.17. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_pipeline'.
+18.18. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_pipeline'.
+18.19. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_pipeline'.
+18.20. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_pipeline'.
+18.21. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_mst_switch'.
+18.22. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_slv_switch'.
+18.23. Analyzing design hierarchy..
+18.24. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo_ram'.
+18.25. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_round_robin'.
+18.26. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo'.
+18.27. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo'.
+18.28. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo'.
+18.29. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo_ram'.
+18.30. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo_ram'.
+18.31. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo_ram'.
+18.32. Analyzing design hierarchy..
+18.33. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_round_robin_core'.
+18.34. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo_ram'.
+18.35. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo_ram'.
+18.36. Executing AST frontend in derive mode using pre-parsed AST for module `\axicb_scfifo_ram'.
+18.37. Analyzing design hierarchy..
+18.38. Analyzing design hierarchy..
+19. Executing OPT_CLEAN pass (remove unused cells and wires).
+Warning: Ignoring module ecc_encode because it contains processes (run 'proc' command first).
+Warning: Ignoring module ecc_secded because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$e9c740856408fe7ea1fbb0169d78a5020222bc31\axicb_scfifo because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$7218dbbde94abfeaf7a002072b4d62e71c8ff08d\axicb_scfifo because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$4320d2eaed22b474b20d2ab7d57bd6abb59e3315\axicb_scfifo because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$33c6fc8711ec5f83b21c8b26206f3418659364f1\axicb_scfifo because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$e395a7837e5cb1ff467844640148815ae936f85a\axicb_mst_if because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$2fd1cb15fef4cbe61b705ec2cd4d79d67afff332\axicb_mst_if because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$1823a4eec45d0143c4c99589ffbe8ec5132ef284\axicb_mst_if because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$20d5e76345452730b7c1db10b15dc11a98fe5cbe\axicb_mst_if because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$04b96881ede5668e70540e1177264990ed6a91b3\axicb_scfifo_ram because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$e2cb1e3b8a2bf7b9cf13e94c5b121761d408b001\axicb_scfifo_ram because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$480796783be85d6ef7e091d0091104574157b728\axicb_scfifo_ram because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod\axicb_round_robin_core\REQ_NB=s32'00000000000000000000000000000100 because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$fa86239bd04dde4984dc4e4b4e4411f30ffa6318\axicb_scfifo_ram because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$cf7ad84dc3e4e76a32d4d58732ea4717e174d7bb\axicb_scfifo_ram because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$b6c0c216c6383eda354e6c15bde71355be6198ce\axicb_scfifo_ram because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$a218724570256710df56d630ca49b297de6063b7\axicb_scfifo because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$5765c92d2274e2edf471d110baae3eea452d2b13\axicb_scfifo because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$81007b8f1d69ff7c52b422335ffc6a502980e45e\axicb_scfifo because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$5bf3b26fb341d3cbf7f843626870b0d83c87e7d8\axicb_round_robin because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$ccccacd701d99478b26e0970006583a74ef64a27\axicb_scfifo_ram because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$0db1e35f558613d3e236673770a8e876fb9efff7\axicb_slv_switch because it contains processes (run 'proc' command first).
+20. Executing RTLIL backend.
+Warnings: 23 unique messages, 23 total
+End of script. Logfile hash: ed33bcee1c, CPU: user 0.99s system 0.15s, MEM: 47.12 MB peak
+Yosys 0.46 (git sha1 e97731b9d, clang++ 14.0.0-1ubuntu1.1 -fPIC -O3)
+Time spent: 42% 1x hierarchy (0 sec), 35% 2x read_liberty (0 sec), ...
+Elapsed time: 0:01.37[h:]min:sec. CPU time: user 1.12 sys 0.17 (95%). Peak memory: 48664KB.

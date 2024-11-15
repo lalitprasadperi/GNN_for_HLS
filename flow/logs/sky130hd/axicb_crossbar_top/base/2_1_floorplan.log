@@ -1,0 +1,43 @@
+OpenROAD v2.0-16316-gf9cfd9383 
+Features included (+) or not (-): +Charts +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 3 thread(s).
+[INFO ODB-0227] LEF file: /home/bsrice33/OpenROAD/OpenROAD-flow-scripts/flow/platforms/sky130hd/lef/sky130_fd_sc_hd.tlef, created 13 layers, 25 vias
+[INFO ODB-0227] LEF file: /home/bsrice33/OpenROAD/OpenROAD-flow-scripts/flow/platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef, created 441 library cells
+[WARNING STA-0366] port 'clock' not found.
+[WARNING STA-0366] port 'a' not found.
+[WARNING STA-0366] port 'clock' not found.
+[WARNING STA-0366] port 'b' not found.
+[WARNING STA-0366] port 'clock' not found.
+[WARNING STA-0366] port 'sum' not found.
+Master sky130_ef_sc_hd__decap_12 is loaded but not used in the design
+
+==========================================================================
+Floorplan check_setup
+--------------------------------------------------------------------------
+Warning: There are 722 input ports missing set_input_delay.
+Warning: There are 676 output ports missing set_output_delay.
+Warning: There are 4420 unclocked register/latch pins.
+Warning: There are 5116 unconstrained endpoints.
+number instances in verilog is 50942
+[INFO IFP-0001] Added 1102 rows of 6521 site unithd.
+repair_timing -verbose -repair_tns 100
+[WARNING RSZ-0021] no estimated parasitics. Using wire load models.
+[INFO RSZ-0098] No setup violations found
+[INFO RSZ-0033] No hold violations found.
+Default units for flow
+ time 1ns
+ capacitance 1pF
+ resistance 1kohm
+ voltage 1v
+ current 1mA
+ power 1nW
+ distance 1um
+Report metrics stage 2, floorplan final...
+
+==========================================================================
+floorplan final report_design_area
+--------------------------------------------------------------------------
+Design area 600735 u^2 7% utilization.
+Elapsed time: 0:26.34[h:]min:sec. CPU time: user 25.96 sys 0.34 (99%). Peak memory: 346112KB.
