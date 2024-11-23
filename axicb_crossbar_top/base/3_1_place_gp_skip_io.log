@@ -1,0 +1,29 @@
+OpenROAD v2.0-16881-g71eabf595 
+Features included (+) or not (-): +Charts +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 3 thread(s).
+global_placement -skip_io -density 0.60 -pad_left 0 -pad_right 0
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: (  0.000  0.000 ) ( 799.940 799.680 ) um
+[INFO GPL-0006] NumInstances:             56545
+[INFO GPL-0007] NumPlaceInstances:        48109
+[INFO GPL-0008] NumFixedInstances:         8436
+[INFO GPL-0009] NumDummyInstances:            0
+[INFO GPL-0010] NumNets:                  49245
+[INFO GPL-0011] NumPins:                 177189
+[INFO GPL-0012] DieBBox:  (  0.000  0.000 ) ( 1000.000 1000.000 ) um
+[INFO GPL-0013] CoreBBox: (  0.000  0.000 ) ( 799.940 799.680 ) um
+[INFO GPL-0016] CoreArea:            639696.019 um^2
+[INFO GPL-0017] NonPlaceInstsArea:    10555.123 um^2
+[INFO GPL-0018] PlaceInstsArea:      584190.285 um^2
+[INFO GPL-0019] Util:                    92.855 %
+[INFO GPL-0020] StdInstsArea:        584190.285 um^2
+[INFO GPL-0021] MacroInstsArea:           0.000 um^2
+[ERROR GPL-0302] Use a higher -density or re-floorplan with a larger core area.
+Given target density: 0.60
+Suggested target density: 0.93
+Error: global_place_skip_io.tcl, 21 GPL-0302
+Command exited with non-zero status 1
+Elapsed time: 0:04.33[h:]min:sec. CPU time: user 2.96 sys 1.33 (98%). Peak memory: 280532KB.
