@@ -3,7 +3,7 @@
 Graph Neural Networks for congestion prediction and logic optimization for synthesis of system-on-chips.
 
 ### Contributions
-Lalit Prasad Peri, Benjamin Rice, Wilson Smith
+Lalit Prasad Peri, Benjamin Rice, Wilson Smith \
 mailto: {lalitprasad, bsrice33 ,wsmit22}@vt.edu
 
 ### Abstract
